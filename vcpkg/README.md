@@ -2,6 +2,8 @@
 
 一个用于查询 vcpkg 依赖库版本信息和最新 commit SHA 的 Python 工具。
 
+> 🔗 第一次接触 vcpkg？先读 [what-is-vcpkg.md](what-is-vcpkg.md) 了解安装与 CMake 集成流程。
+
 ## 🚀 功能特性
 
 - **交互式查询**: 用户友好的命令行界面
@@ -145,9 +147,10 @@ python vcpkg-get-commit-sha.py
 ```
 vcpkg/
 ├── vcpkg-get-commit-sha.py    # 主程序脚本
-├── requirements.txt           # Python依赖包列表
+├── requirements.txt           # Python 依赖包列表
 ├── install_dependencies.bat   # 依赖安装批处理文件
-└── README.md                 # 说明文档
+├── what-is-vcpkg.md           # vcpkg 安装与 CMake 集成指南
+└── README.md                  # 说明文档
 ```
 
 ## 🔍 支持的依赖库

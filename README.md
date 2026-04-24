@@ -1,8 +1,20 @@
-# My Public Script Library
+# dev-utils
 
-A collection of useful scripts for various development and automation tasks.
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?logo=powershell&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-## 📁 Scripts Overview
+Developer utility scripts and notes for everyday workflow friction. Windows-first, content-team friendly.
 
-- **vcpkg-get-commit-sha**:  Query vcpkg dependency library version information and latest commit SHA.<img alt="Static Badge" src="https://img.shields.io/badge/python-FFD43B">
-- **merge-pdf**: Combines pdf, png, jpg and jpeg into one pdf file. Best for combine scanned documents. <img alt="Static Badge" src="https://img.shields.io/badge/python-FFD43B">
+## Scripts
+
+- **[vcpkg/](vcpkg/)** — vcpkg dependency version + commit SHA query tool. Python CLI with interactive library search, smart suggestions, and GitHub token support.
+- **[powershell/](powershell/)** — Windows bootstrap scripts. Currently: elevated PowerShell launcher + `ExecutionPolicy` setup.
+
+## Notes
+
+- **[vcpkg/what-is-vcpkg.md](vcpkg/what-is-vcpkg.md)** — vcpkg installation and CMake integration guide on Windows.
+
+## License
+
+MIT.
